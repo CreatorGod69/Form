@@ -1,7 +1,7 @@
 let button = document.getElementById('login-button');
 button.addEventListener('click',function (ev) {
-    let name = document.forms['myform'].elements['login-name'].value;
-    let pass = document.forms['myform'].elements['login-name'].value;
+    let name = document.forms['form'].elements['login-name'].value;
+    let pass = document.forms['form'].elements['login-pass'].value;
 
     let obj = {
         name:name,
